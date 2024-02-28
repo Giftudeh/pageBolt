@@ -1,0 +1,637 @@
+
+
+/* mobile design */
+    @media only screen and (max-width:425px)
+    {
+        body{
+            background-color: aliceblue;
+        }
+    }
+
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+            font-family: poppins;
+        }
+        nav ul{
+            display: none;
+        }
+        .img1{
+            width: 103.25px;
+            height: 28px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+    button{
+        display: none;
+    }
+    .a1{
+        display: none;
+    }
+    .g{
+        height: 15px;
+        width: 20px;
+    }
+        .g1{
+            background-color: black;
+            height:3px ;
+            width: 30px;
+            margin: 3px;
+        }
+        .g2{
+            background-color: black;
+            height: 3px;
+            width: 20px;
+            margin: 3px;
+        }
+
+        .content a{
+            display: flex;
+            text-decoration: none;
+            margin: 30px;
+            align-items: center;
+            font-family: poppins;
+            color: #41BEFF;
+            width: 205.35px;
+            font-size: 12px;
+            margin-top: 30px;
+            padding: 30px;
+            
+        
+
+            
+        }
+       .content a span{
+        background-color: #41BEFF;
+        border-radius: 20px;
+        color: #FFFFFF;
+        width: 50px;
+        text-align: center;
+        font-size: 12px;
+        align-items: center;
+        
+        
+       }
+       .item1{
+        display: flex;
+       align-items: center;
+       font-size: 18px;
+       font-family: poppins;
+       margin-left: 50px;
+    
+       }
+       .item1 span{
+       color: #41BEFF;
+       width: 331.35px;
+       
+
+       }
+       
+       .Apps{
+        text-align: center;
+        display: flex;
+        gap: 20px;    
+        justify-content: center;
+        border: 20px;
+        border-radius: 5px;
+        
+    
+       }
+       .playstore{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+       }
+
+       .Appstore{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+       }
+       .hero{
+        justify-content: center;
+        text-align: center;
+        margin: 50px;
+        margin-bottom: 20px;
+       }
+
+   
+       .p{
+        width: 331.35px;
+        height: 76.8px;
+        color: #486581;
+        font-size: 16px;
+        font-family: poppins;
+        margin: 40px;
+        margin-top: 20px;
+        
+        
+       }
+       .header{
+        color: #41BEFF;
+        text-align: center;
+        font-family: poppins;
+        width: 287.45px;
+        height:106.4px;
+        font-size: 28px;
+        margin: 5px;
+        margin-top: 20px;
+        
+        
+       }
+       .header span{
+        color: black;
+        text-align: center;
+        font-family: poppins;
+        width: 287.45px;
+        height: 106.4px;
+        font-size: 28px;
+        margin-top: 20px;
+        
+        
+       }
+       .rev{
+        display: flex;
+        flex-direction: column
+        
+       }
+      
+      
+       .rev p{
+        color: #486581;
+        font-size: 14px;
+        font-family: poppins;
+        width: 331.35px;
+        height: 89.6px;
+        padding: 15px;
+    
+    
+       }
+       .learn a{
+        color: #FFFFFF;
+        background-color: #41BEFF;
+        padding: 18px 35px;
+        width: 80.7px;
+        height: 5px;
+        font-size: 14px poppins,sans-serif;
+        text-decoration: none;
+        border-radius: 20px;
+        font-weight: bold;
+        margin: 30px;
+        margin-bottom: 30px;
+
+       }
+
+       .Revo{
+        text-align: center;
+        margin: auto;
+        
+       }
+       .pp{
+        margin-top: 80px;
+        position: relative;
+        margin-top: 50px;
+        
+       }
+       .call-web{
+        align-items: center;
+        margin: auto;
+        margin-bottom: 40px;
+       }
+           
+       
+       .mobile{
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+       }
+
+       .mobile p{
+        width: 330.35px;
+        height: 109.6px;
+        color: #486581;
+        font-size: 14px;
+        font-family: poppins;
+        margin: 20px;
+        padding: 0px 0px;
+        
+       }
+       .main{
+        color: #102A43;
+        width: 331.35px;
+        height: 100.8px;
+        font-size: 28px;
+        font-family: poppins;
+        margin: auto;
+        margin-bottom: 30px;
+
+
+       }
+       .main span{
+        color: #41BEFF;
+        font-size: 28px;
+        font-family: poppins;
+        width: 174.75px;
+        height: 39.2px;
+        margin: 5px;
+       }
+       .mobile ul{
+        width: 330.35px;
+        height: 10px;
+        color: #486581;
+        font-size: 16px;
+        font-family: poppins;
+        margin-top: 0px;
+        
+        
+
+        
+       }
+       .connections{
+        display: flex;
+
+       }
+       .session1{
+        position: absolute;
+        padding: 300px 50px;
+        
+        
+       }
+       .session2{
+        padding: 10px 140px;
+        margin-bottom: 80px;
+        margin-top: 150px;
+        
+       }
+       .page{
+       display: flex;
+       flex-direction: column;
+       font-size: 16px;
+       font-family: poppins;
+
+       }
+       .page p{
+        font-size: 14px;
+        font-family: poppins;
+        margin: 30px;
+        margin-top: 0px;
+        
+
+       }
+       .page ul{
+        font-size: 14px;
+        font-family: poppins;
+        margin: 30px;
+        margin-top: 0px;
+    
+        
+        
+       }
+
+       .td{
+        width: 248.59px;
+        height: 40px;
+        color: #102A43;
+        font-size: 25px;
+        margin-left: 50px;
+        align-items: center;
+        margin-bottom: 100px;
+        margin-top: 20px;
+        font-family: poppins;
+    
+
+       }
+
+       .td span{
+        color: #41BEFF;
+        width: 184.5px;
+        height: 40px;
+        font-size: 25px;
+        font-family: poppins;
+        margin-right: 20px;
+        
+        
+       }
+      
+       .QUALITY{
+        display: flex;
+        flex-direction: column;
+       }
+
+      .COPY{
+     position: absolute;
+     padding:150px 40px;
+    
+      }
+      .MB{
+      padding: 40px 160px;
+      margin-bottom: 20px;
+      
+      }
+      .connect{
+     color: #102A43;
+     font-size: 28px;
+     width: 331.35px;
+     height: 100.8;
+     font-family: poppins;
+     text-align: center;
+      }
+
+      .connect span{
+        color: #41BEFF;
+        text-align: center;
+
+      }
+     
+      
+     
+      .C p{
+        font-size: 16px;
+        font-family: poppins;
+        color: #102A43;
+        text-align: center;
+      }
+      .Audiocalls{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 300px;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        margin: auto;
+        font-family: poppins; 
+        font-size: 14px;
+
+      }
+      .Audiocallsh2{
+        margin: auto;
+      }
+      .Ad{
+        margin: 10px;
+        margin-top: -20px;
+      }
+      .Audiocallsp{
+        font-size: 12px;
+        font-family: poppins;
+        padding-right: 10px;
+        margin-right: 10px;
+        
+      }
+      .Audiocalls2{
+        border: 5px;
+        background-color:#486581
+    
+      }
+      .Ad2{
+        width: 250px;
+        height: 250px;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        margin: auto;
+        font-family: poppins; 
+        font-size: 14px;
+        color: white;
+        padding: 10px;
+
+
+      }.Audiocalls2h3{
+        margin-bottom: 30px;
+      }
+      .m{
+        color: #FFFFFF;
+      }
+      .pm{
+        color: ;
+      }
+      .h{
+        color: #FFFFFF;
+        font-size: 18px;
+        font-family: poppins;
+      }
+
+ 
+
+.mobile{
+display: flex;
+flex-direction: column;
+
+
+
+}
+
+.mobile p{
+width: 330.35px;
+height: 109.6px;
+color: #486581;
+font-size: 14px;
+font-family: poppins;
+margin: 20px;
+padding: 0px 0px;
+
+}
+.main{
+color: #102A43;
+width: 331.35px;
+height: 100.8px;
+font-size: 28px;
+font-family: poppins;
+margin: auto;
+margin-bottom: 30px;
+
+
+}
+.main span{
+color: #41BEFF;
+font-size: 28px;
+font-family: poppins;
+width: 174.75px;
+height: 39.2px;
+margin: 5px;
+}
+.mobile ul{
+width: 330.35px;
+height: 10px;
+color: #486581;
+font-size: 16px;
+font-family: poppins;
+margin-top: 0px;
+
+
+
+
+}
+.connections{
+display: flex;
+
+}
+.session1{
+position: absolute;
+padding: 300px 50px;
+
+
+}
+.session2{
+padding: 10px 140px;
+margin-bottom: 80px;
+margin-top: 150px;
+
+}
+.page{
+display: flex;
+flex-direction: column;
+font-size: 16px;
+font-family: poppins;
+
+}
+.page p{
+font-size: 14px;
+font-family: poppins;
+margin: 30px;
+margin-top: 0px;
+
+
+}
+.page ul{
+font-size: 14px;
+font-family: poppins;
+margin: 30px;
+margin-top: 0px;
+
+
+
+}
+
+.td{
+width: 248.59px;
+height: 40px;
+color: #102A43;
+font-size: 25px;
+margin-left: 50px;
+align-items: center;
+margin-bottom: 100px;
+margin-top: 20px;
+font-family: poppins;
+
+
+}
+
+.td span{
+color: #41BEFF;
+width: 184.5px;
+height: 40px;
+font-size: 25px;
+font-family: poppins;
+margin-right: 20px;
+
+
+}
+
+.QUALITY{
+display: flex;
+flex-direction: column;
+}
+
+.COPY{
+position: absolute;
+padding:150px 40px;
+
+}
+.MB{
+padding: 40px 160px;
+margin-bottom: 20px;
+
+}
+.connect{
+color: #102A43;
+font-size: 28px;
+width: 331.35px;
+height: 100.8;
+font-family: poppins;
+text-align: center;
+}
+
+.connect span{
+color: #41BEFF;
+text-align: center;
+
+}
+
+
+
+.C p{
+font-size: 16px;
+font-family: poppins;
+color: #102A43;
+text-align: center;
+}
+.Audiocalls{
+display: flex;
+flex-direction: column;
+width: 250px;
+height: 300px;
+border-radius: 20px;
+background-color: #FFFFFF;
+margin: auto;
+font-family: poppins; 
+font-size: 14px;
+
+}
+.Audiocallsh2{
+margin: auto;
+}
+.Ad{
+margin: 10px;
+margin-top: -20px;
+}
+.Audiocallsp{
+font-size: 12px;
+font-family: poppins;
+padding-right: 10px;
+margin-right: 10px;
+
+}
+.Audiocalls2{
+border: 5px;
+background-color:#486581
+
+}
+.Ad2{
+width: 250px;
+height: 250px;
+border-radius: 20px;
+background-color: #FFFFFF;
+margin: auto;
+font-family: poppins; 
+font-size: 14px;
+color: white;
+padding: 10px;
+
+
+}.Audiocalls2h3{
+margin-bottom: 30px;
+}
+.m{
+color: #FFFFFF;
+}
+.pm{
+color: ;
+}
+.retro{
+  
+}
+
+
+   
+
+
+
+
+
+    
